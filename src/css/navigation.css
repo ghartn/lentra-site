@@ -1,0 +1,38 @@
+.navigation {
+  width: 100%;
+}
+
+.navigation ul.nav {
+  font-size: 1.2em;
+  list-style: none;
+  width: 100%;
+}
+
+.navigation ul.nav li.nav-item {
+  display: inline;
+  margin-right: 0.5em;
+}
+
+.navigation ul.nav li.nav-item a {
+  text-decoration: none;
+}
+
+.navigation ul.nav li.nav-item a img.logo {
+  max-height: 100%;
+}
+
+.navigation ul.nav li.nav-item a.nav-item-active {
+  font-weight: bold;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .navigation ul.nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation ul.nav li.nav-item {
+    display: inline-block;
+    width: 100%;
+  }
+}
