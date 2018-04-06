@@ -10,7 +10,7 @@ import ContactPage from "./pages/ContactPage";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <DefaultLayout path="/" exact component={HomePage} />
           <DefaultLayout path="/about" component={AboutPage} />
