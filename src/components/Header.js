@@ -8,7 +8,7 @@ const Header = () => {
     <div className="row">
       <div className="two columns">
         <Link className="logo" to="/">
-          <img src={logo} />
+          <img src={logo} alt="lentra-logo" />
         </Link>
       </div>
     </div>

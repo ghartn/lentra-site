@@ -9,7 +9,7 @@ const HomePage = () => {
       <section>
         <div className="row">
           <div className="four columns">
-            <img src={lentra1} />
+            <img src={lentra1} alt="lentra" />
           </div>
           <div className="eight columns">
             <h1>garrett hartnell</h1>
@@ -28,7 +28,7 @@ const HomePage = () => {
       <section>
         <h3>some nice quotes</h3>
         <Quote
-          quoteText="lentra is a swell guy and makes good music"
+          quoteText="lentra is a swell guy that makes swell music"
           citeText="alex (bbno$) gumuchian"
         />
       </section>

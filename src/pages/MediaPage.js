@@ -7,20 +7,22 @@ const MediaPage = () => {
       <div className="row">
         <div className="six columns">
           <iframe
+            title="lentra - crybaby performance (MUSC119)"
             width="100%"
             height="315"
             src="https://www.youtube.com/embed/oXiZjSRI9ug?rel=0"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; encrypted-media"
-            allowfullscreen
+            allowFullScreen
           />
         </div>
         <div className="six columns">
           <iframe
+            title="MUSC 119 Podcast"
             width="100%"
             height="315"
             scrolling="no"
-            frameborder="no"
+            frameBorder="no"
             allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/425830536%3Fsecret_token%3Ds-SaQbe&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
           />
@@ -29,21 +31,21 @@ const MediaPage = () => {
       <div className="row">
         <div className="six columns">
           <iframe
-            src="https://www.ustream.tv/embed/recorded/113790450?html5ui"
-            style={{ border: "0 none transparent" }}
-            webkitallowfullscreen
-            allowfullscreen
-            frameborder="no"
+            title="Ustream placeholder"
+            src="http://www.ustream.tv/embed/recorded/113790450?html5ui"
+            allowFullScreen
+            frameBorder="no"
             width="100%"
             height="315"
           />
         </div>
         <div className="six columns">
           <iframe
+            title="MUSC 119 Personal Melody"
             width="100%"
             height="315"
             scrolling="no"
-            frameborder="no"
+            frameBorder="no"
             allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/425835879%3Fsecret_token%3Ds-Avuyb&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
           />

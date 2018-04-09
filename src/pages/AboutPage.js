@@ -14,6 +14,7 @@ const AboutPage = () => {
           <a
             href="https://soundcloud.com/braxtoncrosby/sets/almost-asleep"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             north carolina rapper crosby.
@@ -23,7 +24,11 @@ const AboutPage = () => {
           lentra has been experimenting with different musical styles, often
           changing genres entirely as exemplified by his latest ep,{" "}
           <i>
-            <a href="https://song.link/album/us/i/1348674455" target="_blank">
+            <a
+              href="https://song.link/album/us/i/1348674455"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               crybaby
             </a>
           </i>, a lo-fi, pop, r&b record where lentra first showcases some
@@ -39,7 +44,7 @@ const AboutPage = () => {
         </p>
       </div>
       <div className="four columns">
-        <img src={lentra2} />
+        <img src={lentra2} alt="lentra" />
       </div>
     </div>
   );

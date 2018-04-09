@@ -11,26 +11,26 @@ const PressPage = () => {
         <h3>headshots</h3>
         <div className="row">
           <div className="six columns">
-            <img src={lentra3} />
+            <img src={lentra3} alt="lentra" />
           </div>
           <div className="six columns">
-            <img src={lentra4} />
+            <img src={lentra4} alt="lentra" />
           </div>
         </div>
       </section>
       <section>
         <h3>more nice quotations</h3>
         <Quote
-          quoteText="lentra is a swell guy and makes good music"
-          citeText="alex (bbno$) gumuchian"
-        />
-        <Quote
           quoteText="my son makes music, that is a thing he does"
           citeText="tina (my mom) hartnell"
         />
         <Quote
-          quoteText="lentra is the goat"
+          quoteText="lentra is undeniably the goat"
           citeText="braxton (crosby) crosby"
+        />
+        <Quote
+          quoteText="lentra is a swell guy that makes swell music"
+          citeText="alex (bbno$) gumuchian"
         />
       </section>
       <section>

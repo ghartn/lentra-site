@@ -64,6 +64,7 @@ class ContactPage extends Component {
                 type="email"
                 id="email"
                 name="email"
+                autoComplete="email"
                 value={this.state.email}
                 onChange={this._onInputChange}
                 required
@@ -74,6 +75,7 @@ class ContactPage extends Component {
                 type="text"
                 id="name"
                 name="name"
+                autoComplete="name"
                 value={this.state.name}
                 onChange={this._onInputChange}
                 required
@@ -98,7 +100,7 @@ class ContactPage extends Component {
             </form>
           </div>
           <div className="six columns">
-            <img src={lentra1} />
+            <img src={lentra1} alt="lentra" />
           </div>
         </div>
       </div>
