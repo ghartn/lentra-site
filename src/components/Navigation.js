@@ -1,29 +1,40 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../css/navigation.css";
 
 const Navigation = props => {
-  return (
-    <div className="navigation">
-      <ul className="nav">
-        <li className="nav-item">
-          <NavLink to="/about" activeClassName="nav-item-active">
-            about
-          </NavLink>
-        </li>{" "}
-        <li className="nav-item">
-          <NavLink to="/music" activeClassName="nav-item-active">
-            music
-          </NavLink>
-        </li>{" "}
-        <li className="nav-item">
-          <NavLink to="/contact" activeClassName="nav-item-active">
-            contact
-          </NavLink>
-        </li>
-      </ul>
-    </div>
-  );
+	return (
+		<div className="w-full">
+			<ul className="flex flex-col md:block list-reset w-full text-lg">
+				<li className="block mb-4">
+					<NavLink
+						to="/about"
+						className="no-underline"
+						activeClassName="font-bold"
+					>
+						about
+					</NavLink>
+				</li>
+				<li className="block mb-4">
+					<NavLink
+						to="/music"
+						className="no-underline"
+						activeClassName="font-bold"
+					>
+						music
+					</NavLink>
+				</li>
+				<li className="block mb-4">
+					<NavLink
+						to="/contact"
+						className="no-underline"
+						activeClassName="font-bold"
+					>
+						contact
+					</NavLink>
+				</li>
+			</ul>
+		</div>
+	);
 };
 
 export default Navigation;

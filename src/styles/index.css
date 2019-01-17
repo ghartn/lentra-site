@@ -1,0 +1,41 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	width: calc(100vw - 68px);
+	padding-left: 34px;
+}
+
+a {
+	@apply text-primary;
+	transition: all 0.1s ease;
+}
+
+a:hover {
+	@apply text-primary-dark;
+	transition: all 0.1s ease;
+}
+
+.btn-primary {
+	@apply bg-primary text-white font-bold py-2 px-4 rounded;
+	transition: all 0.1s ease;
+}
+
+.btn-primary:hover {
+	@apply bg-primary-dark;
+	transition: all 0.1s ease;
+}
+
+input,
+textarea {
+	@apply bg-grey-lighter p-2 rounded border-0 outline-none;
+}
+
+input:required,
+textarea:required {
+	box-shadow: none;
+}
