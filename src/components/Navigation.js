@@ -12,22 +12,14 @@ const Navigation = props => {
           </NavLink>
         </li>{" "}
         <li className="nav-item">
-          <NavLink to="/media" activeClassName="nav-item-active">
-            media
+          <NavLink to="/music" activeClassName="nav-item-active">
+            music
           </NavLink>
         </li>{" "}
-        <li className="nav-item">
-          <NavLink to="/press" activeClassName="nav-item-active">
-            press
-          </NavLink>
-        </li>
         <li className="nav-item">
           <NavLink to="/contact" activeClassName="nav-item-active">
             contact
           </NavLink>
-        </li>
-        <li className="nav-item">
-          <a href="http://lentralentra.bigcartel.com/">merch</a>
         </li>
       </ul>
     </div>

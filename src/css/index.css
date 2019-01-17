@@ -57,13 +57,8 @@ section:not(:first-of-type) {
   width: 100%;
 }
 
-.button-group {
-  display: flex;
-}
-
 .button-group button,
 .button-group a {
-  display: flex;
   margin-right: 1em;
 }
 

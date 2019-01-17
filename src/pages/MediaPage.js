@@ -24,7 +24,7 @@ const MediaPage = () => {
             scrolling="no"
             frameBorder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/425830536%3Fsecret_token%3Ds-SaQbe&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/432279651%3Fsecret_token%3Ds-Jfr7G&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
           />
         </div>
       </div>
@@ -51,6 +51,13 @@ const MediaPage = () => {
           />
         </div>
       </div>
+      <a
+        href="http://www.ustream.tv/recorded/113790450"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        if the ustream video doesn't work, try clicking here!{" "}
+      </a>
     </div>
   );
 };

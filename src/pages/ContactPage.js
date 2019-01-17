@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import lentra1 from "../img/lentra1.png";
+import crybaby1 from "../img/crybaby1.png";
 import { emailRegex } from "../utility/regex";
 import { nameRegex } from "../utility/regex";
 
@@ -58,7 +58,7 @@ class ContactPage extends Component {
               action="https://formspree.io/lentraofficial@gmail.com"
               method="POST"
             >
-              <label htmlFor="email">Your email</label>
+              <label htmlFor="email">your email</label>
               <input
                 className="u-full-width"
                 type="email"
@@ -69,7 +69,7 @@ class ContactPage extends Component {
                 onChange={this._onInputChange}
                 required
               />
-              <label htmlFor="name">Your name</label>
+              <label htmlFor="name">your name</label>
               <input
                 className="u-full-width"
                 type="text"
@@ -80,7 +80,9 @@ class ContactPage extends Component {
                 onChange={this._onInputChange}
                 required
               />
-              <label htmlFor="inquiry">Your inquiry</label>
+              <label htmlFor="inquiry">
+                your message or comment or whatever
+              </label>
               <textarea
                 className="u-full-width"
                 id="inquiry"
@@ -100,7 +102,7 @@ class ContactPage extends Component {
             </form>
           </div>
           <div className="six columns">
-            <img src={lentra1} alt="lentra" />
+            <img src={crybaby1} alt="lentra" />
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import lentra2 from "../img/lentra2.png";
+import lentra3 from "../img/lentra3.png";
 
 const AboutPage = () => {
   return (
@@ -44,7 +44,7 @@ const AboutPage = () => {
         </p>
       </div>
       <div className="four columns">
-        <img src={lentra2} alt="lentra" />
+        <img src={lentra3} alt="lentra" />
       </div>
     </div>
   );

@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Switch } from "react-router-dom";
 import DefaultLayout from "./components/DefaultLayout";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import MediaPage from "./pages/MediaPage";
-import PressPage from "./pages/PressPage";
+import MusicPage from "./pages/MusicPage";
 import ContactPage from "./pages/ContactPage";
 
 class App extends Component {
@@ -14,8 +13,7 @@ class App extends Component {
         <Switch>
           <DefaultLayout path="/" exact component={HomePage} />
           <DefaultLayout path="/about" component={AboutPage} />
-          <DefaultLayout path="/media" component={MediaPage} />
-          <DefaultLayout path="/press" component={PressPage} />
+          <DefaultLayout path="/music" component={MusicPage} />
           <DefaultLayout path="/contact" component={ContactPage} />
         </Switch>
       </Router>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import lentra1 from "../img/lentra1.png";
+import lentra2 from "../img/lentra2.png";
 import Quote from "../components/Quote";
 
 const HomePage = () => {
@@ -9,14 +9,27 @@ const HomePage = () => {
       <section>
         <div className="row">
           <div className="four columns">
-            <img src={lentra1} alt="lentra" />
+            <img src={lentra2} alt="lentra" />
           </div>
           <div className="eight columns">
-            <h1>garrett hartnell</h1>
-            <h2>aka, lentra</h2>
-            <h3>music producer</h3>
+            <h1>lentra</h1>
+            <h2>aka, garrett hartnell</h2>
+            <h3>music producer?</h3>
           </div>
         </div>
+      </section>
+      <section>
+        <h3>some music?</h3>
+        <iframe
+          frameBorder="no"
+          width="100%"
+          src="https://bandcamp.com/EmbeddedPlayer/album=2284893814/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/"
+          seamless
+        >
+          <a href="http://lentra.bandcamp.com/album/crybaby">
+            crybaby by lentra
+          </a>
+        </iframe>
       </section>
       <section>
         <h3>upcoming performances</h3>
@@ -24,13 +37,6 @@ const HomePage = () => {
         <p>
           <Link to="/contact">you should book him!</Link>
         </p>
-      </section>
-      <section>
-        <h3>some nice quotes</h3>
-        <Quote
-          quoteText="lentra is a swell guy that makes swell music"
-          citeText="alex (bbno$) gumuchian"
-        />
       </section>
     </div>
   );
