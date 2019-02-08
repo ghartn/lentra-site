@@ -1,5 +1,5 @@
 import React from "react";
-import lentra3 from "../img/lentra3.png";
+import lentra1 from "../img/lentra1.png";
 
 const AboutPage = () => {
 	return (
@@ -41,12 +41,12 @@ const AboutPage = () => {
 						nintendo gamecube, lately has been doing quite poorly playing
 						fortnite, and is deeply passionate about leftist politics and the
 						push for social equality and justice. he is very confused about what
-						to do with his life despite being about to graduate with a degree in
-						computer engineering from ubc.
+						to do with his life despite graduating with a degree in computer
+						engineering from ubc.
 					</p>
 				</div>
 				<div className="w-full md:w-1/3">
-					<img src={lentra3} alt="lentra" />
+					<img src={lentra1} alt="lentra" />
 				</div>
 			</div>
 		</section>

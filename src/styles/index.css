@@ -30,9 +30,13 @@ a:hover {
 	transition: all 0.1s ease;
 }
 
+label {
+	@apply mb-2;
+}
+
 input,
 textarea {
-	@apply bg-grey-lighter p-2 rounded border-0 outline-none;
+	@apply bg-grey-lighter p-2 border border-grey-lighter outline-none rounded;
 }
 
 input:required,

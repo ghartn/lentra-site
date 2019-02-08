@@ -14,21 +14,18 @@ class ContactPage extends Component {
 				value: "",
 				err: false,
 				message: "",
-				touched: false,
 				status: ""
 			},
 			email: {
 				value: "",
 				err: false,
 				message: "",
-				touched: false,
 				status: ""
 			},
 			message: {
 				value: "",
 				err: false,
 				message: "",
-				touched: false,
 				status: ""
 			}
 		};
@@ -46,8 +43,7 @@ class ContactPage extends Component {
 		this.setState({
 			[name]: {
 				...field,
-				value: value,
-				touched: true
+				value: value
 			}
 		});
 	};
@@ -63,33 +59,34 @@ class ContactPage extends Component {
 	};
 
 	_validateField = (name, value) => {
-		let err = false,
+		let valid = false,
 			message = "";
 		switch (name) {
 			case "email":
-				err = validateEmail(value);
-				message = err ? "please use a real email lol" : "";
+				valid = validateEmail(value);
+				message = valid ? "" : "please use a real email lol";
 				break;
 			case "name":
-				err = validateName(value);
-				message = err ? "please enter a real name lol" : "";
+				valid = validateName(value);
+				message = valid ? "" : "please enter a real name lol";
 				break;
 
 			case "message":
-				err = validateMessage(value);
-				message = err ? "u gotta write somethin man!!" : "";
+				valid = validateMessage(value);
+				message = valid ? "" : "u gotta write somethin man!!";
 				break;
 			default:
 				break;
 		}
 		return {
-			err: err,
+			err: !valid,
 			message: message,
-			status: err ? "error" : "success"
+			status: valid ? "success" : "error"
 		};
 	};
 
 	render() {
+		const { email, name, message } = this.state;
 		return (
 			<section>
 				<h1 className="mb-6">contact</h1>
@@ -99,42 +96,59 @@ class ContactPage extends Component {
 							action="https://formspree.io/lentraofficial@gmail.com"
 							method="POST"
 						>
-							<label htmlFor="email">your email</label>
-							<input
-								className="w-full mb-4"
-								type="email"
-								id="email"
-								name="email"
-								autoComplete="email"
-								value={this.state.email.value}
-								onChange={this._onChange}
-								onBlur={this._onBlur}
-								required
-							/>
-							<label htmlFor="name">your name</label>
-							<input
-								className="w-full mb-4"
-								type="text"
-								id="name"
-								name="name"
-								autoComplete="name"
-								value={this.state.name.value}
-								onChange={this._onChange}
-								onBlur={this._onBlur}
-								required
-							/>
-							<label htmlFor="message">
-								your message or comment or whatever
-							</label>
-							<textarea
-								className="w-full mb-4"
-								id="message"
-								name="message"
-								value={this.state.message.value}
-								onChange={this._onChange}
-								onBlur={this._onBlur}
-								required
-							/>
+							<div className="mb-4">
+								<label htmlFor="email">your email</label>
+								<input
+									className={`w-full border ${email.err ? "border-red" : ""} ${
+										email.status === "success" ? "border-green" : ""
+									}`}
+									type="email"
+									id="email"
+									name="email"
+									autoComplete="email"
+									value={email.value}
+									onChange={this._onChange}
+									onBlur={this._onBlur}
+									required
+								/>
+								{email.err ? <p className="text-red">{email.message}</p> : null}
+							</div>
+							<div className="mb-4">
+								<label htmlFor="name">your name</label>
+								<input
+									className={`w-full border ${name.err ? "border-red" : ""} ${
+										name.status === "success" ? "border-green" : ""
+									}`}
+									type="text"
+									id="name"
+									name="name"
+									autoComplete="name"
+									value={name.value}
+									onChange={this._onChange}
+									onBlur={this._onBlur}
+									required
+								/>
+								{name.err ? <p className="text-red">{name.message}</p> : null}
+							</div>
+							<div className="mb-4">
+								<label htmlFor="message">
+									your message or comment or whatever
+								</label>
+								<textarea
+									className={`w-full border ${
+										message.err ? "border-red" : ""
+									} ${message.status === "success" ? "border-green" : ""}`}
+									id="message"
+									name="message"
+									value={message.value}
+									onChange={this._onChange}
+									onBlur={this._onBlur}
+									required
+								/>
+								{message.err ? (
+									<p className="text-red">{message.message}</p>
+								) : null}
+							</div>
 							<button className="btn-primary" type="submit" value="Submit">
 								Submit!
 							</button>

@@ -4027,13 +4027,18 @@ a:hover {
   transition: all .1s ease;
 }
 
+label {
+  margin-bottom: .5rem;
+}
+
 input,
 textarea {
   background-color: #f1f5f8;
   padding: .5rem;
-  border-radius: .25rem;
-  border-width: 0;
+  border-width: 1px;
+  border-color: #f1f5f8;
   outline: 0;
+  border-radius: .25rem;
 }
 
 input:required,

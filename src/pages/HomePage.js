@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import lol from "../img/lol.png";
 
 const HomePage = () => {

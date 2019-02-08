@@ -1,5 +1,4 @@
 import React from "react";
-import crybaby1 from "../img/crybaby1.png";
 
 const MusicPage = () => {
 	return (
