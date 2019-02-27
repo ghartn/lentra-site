@@ -2,7 +2,7 @@
 	"name": "lentra",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://lentra.ca",
+	"homepage": "https://lentra.ca",
 	"dependencies": {
 		"gh-pages": "^1.2.0",
 		"globby": "^9.0.0",
