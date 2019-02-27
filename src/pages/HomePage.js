@@ -19,6 +19,7 @@ const HomePage = () => {
 					but please listen to my spotify i am starving
 				</a>
 				<iframe
+					title="lentra - wah wah wah"
 					src="https://open.spotify.com/embed/track/518Z1SAUGu17k0CQ67M9iK"
 					width="100%"
 					height="150"
