@@ -8,7 +8,7 @@ const DefaultLayout = ({ component: Component, ...rest }) => {
 		<Route
 			{...rest}
 			render={matchProps => (
-				<div className="container my-12 leading-normal">
+				<div className="container py-12 leading-normal">
 					<Header {...rest} />
 					<div className="flex flex-row">
 						<div className="w-1/6">

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import crybaby1 from "../img/crybaby1.png";
 import {
 	validateEmail,
 	validateName,
@@ -89,7 +88,7 @@ class ContactPage extends Component {
 		const { email, name, message } = this.state;
 		return (
 			<section>
-				<h1 className="mb-6">contact</h1>
+				<h1 className="text-3xl mb-6">contact me</h1>
 				<div className="flex flex-row">
 					<div className="w-full md:w-1/2">
 						<form
@@ -99,9 +98,9 @@ class ContactPage extends Component {
 							<div className="mb-4">
 								<label htmlFor="email">your email</label>
 								<input
-									className={`w-full border ${email.err ? "border-red" : ""} ${
-										email.status === "success" ? "border-green" : ""
-									}`}
+									className={`w-full border ${
+										email.err ? "border-red-500" : ""
+									} ${email.status === "success" ? "border-green-500" : ""}`}
 									type="email"
 									id="email"
 									name="email"
@@ -111,14 +110,16 @@ class ContactPage extends Component {
 									onBlur={this._onBlur}
 									required
 								/>
-								{email.err ? <p className="text-red">{email.message}</p> : null}
+								{email.err ? (
+									<p className="text-red-500">{email.message}</p>
+								) : null}
 							</div>
 							<div className="mb-4">
 								<label htmlFor="name">your name</label>
 								<input
-									className={`w-full border ${name.err ? "border-red" : ""} ${
-										name.status === "success" ? "border-green" : ""
-									}`}
+									className={`w-full border ${
+										name.err ? "border-red-500" : ""
+									} ${name.status === "success" ? "border-green-500" : ""}`}
 									type="text"
 									id="name"
 									name="name"
@@ -128,7 +129,9 @@ class ContactPage extends Component {
 									onBlur={this._onBlur}
 									required
 								/>
-								{name.err ? <p className="text-red">{name.message}</p> : null}
+								{name.err ? (
+									<p className="text-red-500">{name.message}</p>
+								) : null}
 							</div>
 							<div className="mb-4">
 								<label htmlFor="message">
@@ -136,8 +139,8 @@ class ContactPage extends Component {
 								</label>
 								<textarea
 									className={`w-full border ${
-										message.err ? "border-red" : ""
-									} ${message.status === "success" ? "border-green" : ""}`}
+										message.err ? "border-red-500" : ""
+									} ${message.status === "success" ? "border-green-500" : ""}`}
 									id="message"
 									name="message"
 									value={message.value}
@@ -146,16 +149,13 @@ class ContactPage extends Component {
 									required
 								/>
 								{message.err ? (
-									<p className="text-red">{message.message}</p>
+									<p className="text-red-500">{message.message}</p>
 								) : null}
 							</div>
 							<button className="btn-primary" type="submit" value="Submit">
-								Submit!
+								submit
 							</button>
 						</form>
-					</div>
-					<div className="w-full md:w-1/2">
-						<img src={crybaby1} alt="lentra" />
 					</div>
 				</div>
 			</section>

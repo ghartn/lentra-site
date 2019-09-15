@@ -1,52 +1,78 @@
 import React from "react";
-import lentra1 from "../img/lentra1.png";
+import { Link } from "react-router-dom";
+import instagram from "../img/icons/instagram.svg";
+import twitter from "../img/icons/twitter.svg";
+import soundcloud from "../img/icons/soundcloud.svg";
+import youtube from "../img/icons/youtube.svg";
+import spotify from "../img/icons/spotify.svg";
+import twitch from "../img/icons/twitch.svg";
 
 const AboutPage = () => {
 	return (
 		<section>
-			<h1 className="mb-8">about</h1>
-			<div className="flex flex-row">
-				<div className="w-full md:w-2/3 pr-8">
-					<p className="pb-4">
-						lentra is a music producer who has been producing for local and
-						global artists for four years. he initially began making music in
-						2013, taking it more seriously in the following summers and began
-						collaborating heavily with{" "}
-						<a
-							href="https://soundcloud.com/braxtoncrosby/sets/almost-asleep"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							{" "}
-							north carolina rapper crosby.
-						</a>
-					</p>
-					<p className="pb-4">
-						lentra has been experimenting with different musical styles, often
-						changing genres entirely as exemplified by his latest ep,{" "}
-						<i>
-							<a
-								href="https://song.link/album/us/i/1348674455"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								crybaby
-							</a>
-						</i>
-						, a lo-fi, pop, r&b record where lentra first showcases some singing
-						prowess.
-					</p>
-					<p className="pb-4">
-						lentra is also really good at super smash bros melee for the
-						nintendo gamecube, lately has been doing quite poorly playing
-						fortnite, and is deeply passionate about leftist politics and the
-						push for social equality and justice. he is very confused about what
-						to do with his life despite graduating with a degree in computer
-						engineering from ubc.
-					</p>
-				</div>
-				<div className="w-full md:w-1/3">
-					<img src={lentra1} alt="lentra" />
+			<h1 className="mb-8 text-3xl">about</h1>
+			<div className="w-full md:w-2/3 pr-8">
+				<p className="pb-4">
+					hello, my name is lentra. i produce music for other people and also
+					sing and stuff. this is my job now. sorry if i killed you in fortnite
+				</p>
+				<p className="pb-8">
+					i've been doing this for like 6 years i think.{" "}
+					<Link to="/contact">
+						click this if you want to send me a message.
+					</Link>{" "}
+					also if you followed me on anything i would very much appreciate it.
+					you don't have to though. it's weird. but if you don't follow i might
+					starve and die. something to think about
+				</p>
+				<div className="flex">
+					<a
+						className="mr-6"
+						href="https://instagram.com/lentralentra"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={instagram} alt="instagram" height={40} width={40} />,
+					</a>
+					<a
+						className="mr-6"
+						href="https://twitter.com/lentralentra"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={twitter} alt="twitter" height={40} width={40} />,
+					</a>
+					<a
+						className="mr-6"
+						href="https://open.spotify.com/artist/484bfoveqgHfx2VhNY4zzT"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={spotify} alt="spotify" height={40} width={40} />,
+					</a>
+					<a
+						className="mr-6"
+						href="https://soundcloud.com/lentra"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={soundcloud} alt="soundcloud" height={40} width={40} />,
+					</a>
+					<a
+						className="mr-6"
+						href="https://www.youtube.com/channel/UC8WDX4aGP4ry9qDx1d86ypg"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={youtube} alt="youtube" height={40} width={40} />,
+					</a>
+					<a
+						href="https://twitch.com/lentra"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={twitch} alt="twitch" height={40} width={40} />,
+					</a>
 				</div>
 			</div>
 		</section>
