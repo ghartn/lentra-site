@@ -26,8 +26,8 @@ const MusicPage = () => {
 							src="https://open.spotify.com/embed/album/142QPfqExNu8Z0e59PVtVn"
 							width="100%"
 							height="300"
-							frameborder="no"
-							allowtransparency="true"
+							frameBorder="no"
+							allowTransparency="true"
 							allow="encrypted-media"
 						></iframe>
 					</div>
@@ -41,7 +41,7 @@ const MusicPage = () => {
 							src="https://open.spotify.com/embed/album/4Ft0ZRuhKoRUpAjkwvRTT1"
 							width="100%"
 							height="300"
-							frameborder="no"
+							frameBorder="no"
 							allowTransparency="true"
 							allow="encrypted-media"
 							seamless

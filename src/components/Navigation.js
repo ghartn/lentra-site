@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 const Navigation = props => {
 	return (
 		<div className="w-full">
-			<ul className="flex flex-col md:block list-reset w-full text-lg">
-				<li className="block mb-4">
+			<ul className="flex flex-row sm:flex-col md:block list-reset w-full text-lg">
+				<li className="block mr-4 sm:mr-0 mb-4">
 					<NavLink
 						to="/about"
 						className="no-underline"
@@ -14,7 +14,7 @@ const Navigation = props => {
 						about
 					</NavLink>
 				</li>
-				<li className="block mb-4">
+				<li className="block mr-4 sm:mr-0 mb-4">
 					<NavLink
 						to="/music"
 						className="no-underline"
@@ -23,7 +23,7 @@ const Navigation = props => {
 						music
 					</NavLink>
 				</li>
-				<li className="block mb-4">
+				<li className="block mr-4 sm:mr-0 mb-4">
 					<NavLink
 						to="/contact"
 						className="no-underline"

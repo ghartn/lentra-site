@@ -32,7 +32,7 @@ const AboutPage = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={instagram} alt="instagram" height={40} width={40} />,
+						<img src={instagram} alt="instagram" height={40} width={40} />
 					</a>
 					<a
 						className="mr-6"
@@ -40,7 +40,7 @@ const AboutPage = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={twitter} alt="twitter" height={40} width={40} />,
+						<img src={twitter} alt="twitter" height={40} width={40} />
 					</a>
 					<a
 						className="mr-6"
@@ -48,7 +48,7 @@ const AboutPage = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={spotify} alt="spotify" height={40} width={40} />,
+						<img src={spotify} alt="spotify" height={40} width={40} />
 					</a>
 					<a
 						className="mr-6"
@@ -56,7 +56,7 @@ const AboutPage = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={soundcloud} alt="soundcloud" height={40} width={40} />,
+						<img src={soundcloud} alt="soundcloud" height={40} width={40} />
 					</a>
 					<a
 						className="mr-6"
@@ -64,14 +64,14 @@ const AboutPage = () => {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={youtube} alt="youtube" height={40} width={40} />,
+						<img src={youtube} alt="youtube" height={40} width={40} />
 					</a>
 					<a
 						href="https://twitch.com/lentra"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={twitch} alt="twitch" height={40} width={40} />,
+						<img src={twitch} alt="twitch" height={40} width={40} />
 					</a>
 				</div>
 			</div>

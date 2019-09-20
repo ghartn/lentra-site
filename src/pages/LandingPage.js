@@ -18,8 +18,8 @@ const LandingPage = () => {
 				src="https://open.spotify.com/embed/album/4Ft0ZRuhKoRUpAjkwvRTT1"
 				width="360"
 				height="80"
-				frameborder="0"
-				allowtransparency="true"
+				frameBorder="0"
+				allowTransparency="true"
 				allow="encrypted-media"
 			></iframe>
 			<Link
