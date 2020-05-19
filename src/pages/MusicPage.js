@@ -4,26 +4,26 @@ const MusicPage = () => {
 	return (
 		<div>
 			<h1 className="mb-8 text-3xl">
-				hello, here is some music i made and/or produced
+				here is some music i made and/or produced
 			</h1>
 			<section>
 				<div className="flex flex-row">
 					<div className="w-full md:w-1/2 p-2">
 						<iframe
-							title="bbno$ - sriracha prod. lentra (soundcloud)"
+							src="https://open.spotify.com/embed/album/3G58XAePSb7GQ9G62f2qXx"
+							title="ceo@business.net - incentivize unpaid overtime"
 							width="100%"
 							height="300"
 							scrolling="no"
 							frameBorder="no"
 							seamless
 							allow="autoplay"
-							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/608481888&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-						/>
+						></iframe>
 					</div>
 					<div className="w-full md:w-1/2 p-2">
 						<iframe
-							title="lentra - wah wah wah (spotify)"
-							src="https://open.spotify.com/embed/album/142QPfqExNu8Z0e59PVtVn"
+							title="lentra - static"
+							src="https://open.spotify.com/embed/album/2S8qD31pccKjn1PREHhYOj"
 							width="100%"
 							height="300"
 							frameBorder="no"
@@ -37,8 +37,8 @@ const MusicPage = () => {
 				<div className="row">
 					<div className="w-full p-2">
 						<iframe
-							title="lentra - rose pink (spotify)"
-							src="https://open.spotify.com/embed/album/4Ft0ZRuhKoRUpAjkwvRTT1"
+							title="bbno$ + lentra"
+							src="https://open.spotify.com/embed/playlist/1vt5C4DOrGtbN370U6oGpl"
 							width="100%"
 							height="300"
 							frameBorder="no"

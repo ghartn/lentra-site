@@ -10,11 +10,11 @@ import twitch from "../img/icons/twitch.svg";
 const AboutPage = () => {
 	return (
 		<section>
-			<h1 className="mb-8 text-3xl">about</h1>
+			<h1 className="mb-8 text-3xl">hello</h1>
 			<div className="w-full md:w-2/3 pr-8">
 				<p className="pb-4">
-					hello, my name is lentra. i produce music for other people and also
-					sing and stuff. this is my job now. sorry if i killed you in fortnite
+					my name is lentra. i produce music for other people and also sing and
+					stuff. this is my job now. sorry if i killed you in fortnite
 				</p>
 				<p className="pb-8">
 					i've been doing this for like 6 years i think.{" "}

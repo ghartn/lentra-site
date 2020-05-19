@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Navigation = props => {
+const Navigation = (props) => {
 	return (
 		<div className="w-full">
 			<ul className="flex flex-row sm:flex-col md:block list-reset w-full text-lg">
