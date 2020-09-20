@@ -5,6 +5,7 @@ import DefaultLayout from "./components/DefaultLayout";
 import MusicPage from "./pages/MusicPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import CoolPage from "./pages/CoolPage";
 
 class App extends Component {
 	render() {
@@ -14,6 +15,7 @@ class App extends Component {
 					<DefaultLayout path="/" exact component={AboutPage} />
 					<DefaultLayout path="/music" component={MusicPage} />
 					<DefaultLayout path="/about" component={AboutPage} />
+					<DefaultLayout path="/cool" component={CoolPage} />
 					<DefaultLayout path="/contact" component={ContactPage} />
 				</Switch>
 			</Router>

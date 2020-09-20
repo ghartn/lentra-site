@@ -14,16 +14,23 @@ const AboutPage = () => {
 			<div className="w-full md:w-2/3 pr-8">
 				<p className="pb-4">
 					my name is lentra. i produce music for other people and also sing and
-					stuff. this is my job now. sorry if i killed you in fortnite
+					stuff. this is my job now. i would appreciate if u would check my
+					music out or whatever.
 				</p>
 				<p className="pb-8">
 					i've been doing this for like 6 years i think.{" "}
 					<Link to="/contact">
 						click this if you want to send me a message.
 					</Link>{" "}
-					also if you followed me on anything i would very much appreciate it.
-					you don't have to though. it's weird. but if you don't follow i might
-					starve and die. something to think about
+					also,{" "}
+					<Link to="/cool">
+						click this if you want to get emails with updates and cool stuff or
+						whatever.
+					</Link>{" "}
+					i'm not gonna spam. i promise. also if you followed me on anything i
+					would very much appreciate it. you don't have to though. it's weird.
+					but if you don't follow i might starve and die. something to think
+					about
 				</p>
 				<div className="flex">
 					<a
