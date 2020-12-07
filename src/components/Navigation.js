@@ -33,6 +33,9 @@ const Navigation = (props) => {
 					</NavLink>
 				</li>
 				<li className="mr-4">
+					<a href="https://shop.lentra.ca">shop</a>		
+				</li>
+				<li className="mr-4">
 					<NavLink
 						to="/contact"
 						className="no-underline"

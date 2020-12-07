@@ -41,6 +41,9 @@ const Header = ({ ...rest }) => {
 					</NavLink>
 				</li>
 				<li className="sm:mr-6 mr-2">
+					<a href="https://shop.lentra.ca">shop</a>		
+				</li>
+				<li className="sm:mr-6 mr-2">
 					<NavLink
 						to="/contact"
 						className="no-underline"
