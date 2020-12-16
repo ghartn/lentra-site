@@ -8,7 +8,7 @@ const AboutPage = () => {
 			<div className="w-full md:w-2/5 pr-24">
                 <h2 className="font-bold mb-2">wet ingredients</h2> 
 				<ol className="list-disc mb-4 ml-8">	
-					<li>360 ml cool water (1 ½ cup)</li>
+					<li>360 ml cool water</li>
 				</ol>
 				<h2 className="font-bold mb-2">dry ingredients</h2> 
 				<ol className="list-disc mb-4 ml-8">	
