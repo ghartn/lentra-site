@@ -15,21 +15,15 @@ const Header = ({ ...rest }) => {
 			<ul className="flex flex-row list-reset w-full text-lg">
 				<li className="sm:mr-6 mr-2">
 					<NavLink
-						to="/about"
-						className="no-underline"
-						activeClassName="font-bold"
-					>
-						about
-					</NavLink>
-				</li>
-				<li className="sm:mr-6 mr-2">
-					<NavLink
 						to="/music"
 						className="no-underline"
 						activeClassName="font-bold"
 					>
 						music
 					</NavLink>
+				</li>
+				<li className="sm:mr-6 mr-2">
+					<a href="https://bbnomula.com/tour">tour</a>		
 				</li>
 				<li className="sm:mr-6 mr-2">
 					<NavLink
