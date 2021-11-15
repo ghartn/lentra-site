@@ -92,7 +92,7 @@ class ContactPage extends Component {
 				<div className="flex flex-row">
 					<div className="w-full md:w-1/2">
 						<form
-							action="https://formspree.io/lentraofficial@gmail.com"
+							action="https://getform.io/f/aa769b00-58e4-4473-bc84-5e3353583352"
 							method="POST"
 						>
 							<div className="mb-4">
