@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.44be34d7.chunk.css",
-    "main.js": "/static/js/main.f3862f7f.chunk.js",
-    "main.js.map": "/static/js/main.f3862f7f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.25108779.js",
-    "runtime-main.js.map": "/static/js/runtime-main.25108779.js.map",
-    "static/js/2.f1132fc7.chunk.js": "/static/js/2.f1132fc7.chunk.js",
-    "static/js/2.f1132fc7.chunk.js.map": "/static/js/2.f1132fc7.chunk.js.map",
+    "main.css": "/static/css/main.217ec31b.chunk.css",
+    "main.js": "/static/js/main.92293d93.chunk.js",
+    "main.js.map": "/static/js/main.92293d93.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.295f7a3d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.295f7a3d.js.map",
+    "static/js/2.944b1128.chunk.js": "/static/js/2.944b1128.chunk.js",
+    "static/js/2.944b1128.chunk.js.map": "/static/js/2.944b1128.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a98ba088c1137b7b00f99dcf8da57f3e.js": "/precache-manifest.a98ba088c1137b7b00f99dcf8da57f3e.js",
+    "precache-manifest.749e709d778d857a1708f4d3f9a36ed0.js": "/precache-manifest.749e709d778d857a1708f4d3f9a36ed0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.44be34d7.chunk.css.map": "/static/css/main.44be34d7.chunk.css.map",
-    "static/js/2.f1132fc7.chunk.js.LICENSE.txt": "/static/js/2.f1132fc7.chunk.js.LICENSE.txt",
-    "static/media/instagram.svg": "/static/media/instagram.b1c58ee1.svg",
-    "static/media/soundcloud.svg": "/static/media/soundcloud.953bedeb.svg",
-    "static/media/spotify.svg": "/static/media/spotify.977b3a3c.svg",
-    "static/media/twitch.svg": "/static/media/twitch.3aabbcb8.svg",
-    "static/media/twitter.svg": "/static/media/twitter.182d5ef4.svg",
-    "static/media/youtube.svg": "/static/media/youtube.a6372485.svg"
+    "static/css/main.217ec31b.chunk.css.map": "/static/css/main.217ec31b.chunk.css.map",
+    "static/js/2.944b1128.chunk.js.LICENSE.txt": "/static/js/2.944b1128.chunk.js.LICENSE.txt",
+    "static/media/instagram-w.svg": "/static/media/instagram-w.2b38a3a7.svg",
+    "static/media/soundcloud-w.svg": "/static/media/soundcloud-w.72da02f1.svg",
+    "static/media/spotify-w.svg": "/static/media/spotify-w.d7871749.svg",
+    "static/media/twitch-w.svg": "/static/media/twitch-w.ce8b9ab9.svg",
+    "static/media/twitter-w.svg": "/static/media/twitter-w.5bdc05c2.svg",
+    "static/media/youtube-w.svg": "/static/media/youtube-w.c2274c52.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.25108779.js",
-    "static/js/2.f1132fc7.chunk.js",
-    "static/css/main.44be34d7.chunk.css",
-    "static/js/main.f3862f7f.chunk.js"
+    "static/js/runtime-main.295f7a3d.js",
+    "static/js/2.944b1128.chunk.js",
+    "static/css/main.217ec31b.chunk.css",
+    "static/js/main.92293d93.chunk.js"
   ]
 }
