@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import instagram from "../img/icons/instagram.svg";
-import twitter from "../img/icons/twitter.svg";
-import soundcloud from "../img/icons/soundcloud.svg";
-import youtube from "../img/icons/youtube.svg";
-import spotify from "../img/icons/spotify.svg";
-import twitch from "../img/icons/twitch.svg";
+import instagram from "../img/icons/instagram-w.svg";
+import twitter from "../img/icons/twitter-w.svg";
+import soundcloud from "../img/icons/soundcloud-w.svg";
+import youtube from "../img/icons/youtube-w.svg";
+import spotify from "../img/icons/spotify-w.svg";
+import twitch from "../img/icons/twitch-w.svg";
 
 const AboutPage = () => {
 	return (
@@ -14,11 +14,10 @@ const AboutPage = () => {
 			<div className="w-full md:w-2/3 pr-8">
 				<p className="pb-4">
 					my name is lentra. i produce music for other people and also sing and
-					stuff. this is my job now. i would appreciate if u would check my
-					music out or whatever.
+					stuff. this is my job now. i would appreciate if u would check out my music or whatever.
 				</p>
 				<p className="pb-8">
-					i've been doing this for like 6 years i think.{" "}
+					i've been doing this for like 8 years i think.{" "}
 					<Link to="/contact">
 						click this if you want to send me a message.
 					</Link>{" "}
@@ -28,7 +27,7 @@ const AboutPage = () => {
 						whatever.
 					</Link>{" "}
 					i'm not gonna spam. i promise. also if you followed me on anything i
-					would very much appreciate it. you don't have to though. it's weird.
+					would very much appreciate it. you don't have to though.
 					but if you don't follow i might starve and die. something to think
 					about
 				</p>
@@ -67,11 +66,11 @@ const AboutPage = () => {
 					</a>
 					<a
 						className="mr-6"
-						href="https://www.youtube.com/channel/UC8WDX4aGP4ry9qDx1d86ypg"
+						href="https://www.youtube.com/c/lentra"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src={youtube} alt="youtube" height={40} width={40} />
+						<img src={youtube} alt="youtube" height={40} width={40}/>
 					</a>
 					<a
 						href="https://twitch.com/lentra"

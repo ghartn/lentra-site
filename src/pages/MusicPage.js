@@ -10,8 +10,8 @@ const MusicPage = () => {
 				<div className="flex flex-row">
 					<div className="w-full md:w-1/2 p-2">
 						<iframe
-							src="https://open.spotify.com/embed/album/61DXuWPO5fHZmeORMrB5Ao"
-							title="ceo@business.net - incentivize unpaid overtime 2"
+							src="https://open.spotify.com/embed/album/7kibZ3ebsdQwbKNEJ0q3xP"
+							title="lentra - a happy medium"
 							width="100%"
 							height="300"
 							scrolling="no"
@@ -22,8 +22,8 @@ const MusicPage = () => {
 					</div>
 					<div className="w-full md:w-1/2 p-2">
 						<iframe
-							title="lentra - o shit!"
-							src="https://open.spotify.com/embed/album/14V0wL2inmCogS2KVsWNm2" 
+							src="https://open.spotify.com/embed/album/61DXuWPO5fHZmeORMrB5Ao"
+							title="ceo@business.net - incentivize unpaid overtime 2"
 							width="100%"
 							height="300"
 							frameBorder="no"

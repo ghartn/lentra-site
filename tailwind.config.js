@@ -32,8 +32,8 @@ module.exports = {
 				500: "#27ae60"
 			},
 			blue: {
-				500: "#43b6b9",
-				600: "#49b2b5"
+				500: "#458ab1",
+				600: "#74ccff"
 			},
 			pink: {
 				rose: "#f9c7ca" // #eebeb4
